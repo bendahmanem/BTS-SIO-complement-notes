@@ -1,0 +1,36 @@
+/* selecteur de classe */
+.test {
+    text-transform: uppercase;
+    color: rgb(17, 130, 148);
+}
+
+/* selecteur universel  */
+* {
+    
+}
+
+/* selecteur de type */
+p {
+
+}
+
+p.test {
+
+}
+
+/* selecteur d'attribut */ 
+span[title^="Titre"] {
+    color: brown;
+}
+
+
+/* Les selecteurs de pseudo-classes  */
+a:visited {
+    color: rgb(32, 92, 11);
+    background-color: aqua;
+}
+
+a:hover {
+    color: rgb(171, 129, 95);
+    background-color: palevioletred;
+}
